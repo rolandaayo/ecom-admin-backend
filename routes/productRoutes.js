@@ -20,6 +20,9 @@ router.put(
 );
 
 // Delete a product
-router.delete("/:id", productController.deleteProduct);
+router.delete(
+  "/:id", 
+  productController.deleteProduct
+);
 
 module.exports = router;
