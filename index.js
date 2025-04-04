@@ -13,8 +13,7 @@ const PORT = process.env.PORT || 5001;
 // Update MONGO_CONFIG
 const MONGO_CONFIG = {
   uri:
-    process.env.MONGODB_URI ||
-    "mongodb+srv://ibiwoyeroland:UQIQBbKzyE9sb854@cluster0.aiyak.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0",
+    process.env.MONGODB_URI,
   options: {
     serverSelectionTimeoutMS: 30000, // Increase timeout
     socketTimeoutMS: 45000,
