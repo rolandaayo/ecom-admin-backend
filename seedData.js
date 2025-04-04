@@ -67,3 +67,17 @@ seedDatabase()
     console.error('Unexpected error during seeding:', error);
     process.exit(1);
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
