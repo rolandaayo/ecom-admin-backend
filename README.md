@@ -1,9 +1,9 @@
 <div align="center">
-  <h2 align="center">Ridex - Car Rental Website</h2>
+  <h2 align="center">Ecommerce Admin Backend</h2>
 
- Ridex is a modern and visually appealing web application designed for car renting services. <br/> Built using React.js &amp; Tailwind CSS. <br/>
+Ecommerce Admin Backend is a Node.js API for managing products, users, and orders, with MongoDB for secure data storage. <br/> Built using Node.js <br/>
 
-  <a href="https://car-rental-w3b.vercel.app/"><strong>➥ Live Demo</strong></a>
+  <a href=""><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -19,20 +19,20 @@ Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-### Installing Ridex
+### Installing ecom admin backend
 
-To install **Ridex**, run this command on your git bash:
+To install **ecom admin backend**, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/rolandaayo/ridex.git
+sudo git clone https://github.com/rolandaayo/ecom-admin-backend.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/rolandaayo/ridex.git
+git clone https://github.com/rolandaayo/ecom-admin-backend.git
 ```
 
 ## 💬 Contact
