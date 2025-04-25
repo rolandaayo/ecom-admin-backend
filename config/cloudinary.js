@@ -6,13 +6,4 @@ cloudinary.config({
   api_secret: 'I8xBaIIqyw3lm4G0anlsDpbyCD0'
 });
 
-// Test the configuration
-cloudinary.api.ping()
-  .then(result => {
-    console.log('Cloudinary connection successful:', result);
-  })
-  .catch(error => {
-    console.error('Cloudinary connection error:', error);
-  });
-
-module.exports = cloudinary; 
+module.exports = cloudinary;
