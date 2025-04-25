@@ -84,10 +84,6 @@ const startServer = async () => { // Start server only after MongoDB connects
 
 app.use("/api/products", productRoutes);
 
-app.get("/api/test", (req, res) => { // Test route
-  res.json({ message: "API is working" });
-});
-
 app.use((err, req, res, next) => { // Error handler
   console.error("Unhandled Error:", err);
   res.status(500).json({
